@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.insurance.qa.test.CustomerSearchHomeTest">
+        <methods>
+          <include name="selectFromCustomerIdTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.insurance.qa.test.CustomerSearchHomeTest -->
+      <class name="com.insurance.qa.test.Bagic_Info_PageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="enterSelfDetailsTest"/>
+        </methods>
+      </class> <!-- com.insurance.qa.test.Bagic_Info_PageTest -->
+      <class name="com.insurance.qa.test.ProductSelectionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="enterProductDetailsTest"/>
+        </methods>
+      </class> <!-- com.insurance.qa.test.ProductSelectionTest -->
+      <class name="com.insurance.qa.test.NewApplicationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="enterCustomerDetailsTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.insurance.qa.test.NewApplicationTest -->
+      <class name="com.insurance.qa.test.LoginInsurancePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.insurance.qa.test.LoginInsurancePageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

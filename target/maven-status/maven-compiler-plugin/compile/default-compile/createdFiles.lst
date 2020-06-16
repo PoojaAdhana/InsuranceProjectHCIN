@@ -1,0 +1,14 @@
+com\insurance\qa\base\InsuranceBase.class
+com\insurance\qa\ExtentReportListner\ExtentReporterNG.class
+com\insurance\qa\pages\CustomerSearchHome.class
+com\insurance\qa\pages\CustomerSearch.class
+com\insurance\qa\util\TestUtil.class
+com\insurance\qa\pages\ProductSelection.class
+com\insurance\qa\util\Xls_Reader.class
+com\insurance\qa\util\WebEventListener.class
+com\insurance\qa\pages\Bagic_Info_Page.class
+com\insurance\qa\pages\Dashboard.class
+com\insurance\qa\pages\PaymentProcess.class
+com\insurance\qa\pages\CheckoutPage.class
+com\insurance\qa\pages\NewApplication.class
+com\insurance\qa\pages\LoginInsurance.class

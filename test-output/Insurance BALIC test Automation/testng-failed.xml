@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Insurance BALIC test Automation]">
+  <listeners>
+    <listener class-name="com.insurance.qa.ExtentReportListner.ExtentReporterNG"/>
+  </listeners>
+  <test name="BALIC Test Cases(failed)">
+    <classes>
+      <class name="com.insurance.qa.test.BagicE2ETestCases">
+        <methods>
+          <include name="BagicTestForSelf" invocation-numbers="1"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.insurance.qa.test.BagicE2ETestCases -->
+    </classes>
+  </test> <!-- BALIC Test Cases(failed) -->
+</suite> <!-- Failed suite [Insurance BALIC test Automation] -->

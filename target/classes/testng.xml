@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Insurance BALIC test Automation">
+
+	<listeners>
+		<listener class-name="com.insurance.qa.ExtentReportListner.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="BALIC Test Cases">
+		<classes>
+			
+			<class name="com.insurance.qa.test.BagicE2ETestCases"></class>
+		</classes>
+	</test>
+</suite>

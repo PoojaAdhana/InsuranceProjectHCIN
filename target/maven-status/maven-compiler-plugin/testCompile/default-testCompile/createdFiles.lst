@@ -1,0 +1,7 @@
+com\insurance\qa\test\NewApplicationTest.class
+com\insurance\qa\test\ProductSelectionTest.class
+com\insurance\qa\test\Bagic_Info_PageTest.class
+com\insurance\qa\test\CheckoutPageTest.class
+com\insurance\qa\test\CustomerSearchHomeTest.class
+com\insurance\qa\test\BagicE2ETestCases.class
+com\insurance\qa\test\LoginInsurancePageTest.class

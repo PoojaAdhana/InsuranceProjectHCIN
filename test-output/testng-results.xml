@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Insurance BALIC test Automation" duration-ms="103861" started-at="2020-06-16T04:30:06Z" finished-at="2020-06-16T04:31:50Z">
+    <groups>
+    </groups>
+    <test name="BALIC Test Cases" duration-ms="103861" started-at="2020-06-16T04:30:06Z" finished-at="2020-06-16T04:31:50Z">
+      <class name="com.insurance.qa.test.BagicE2ETestCases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.insurance.qa.test.BagicE2ETestCases@59f99ea]" name="setup" is-config="true" duration-ms="24631" started-at="2020-06-16T10:00:06Z" finished-at="2020-06-16T10:00:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BagicTestForSelf(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.insurance.qa.test.BagicE2ETestCases@59f99ea]" name="BagicTestForSelf" duration-ms="78077" started-at="2020-06-16T10:00:32Z" data-provider="getCustomerData" finished-at="2020-06-16T10:01:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testid1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass@2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[308675]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9818115777]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pooja.adhana@homecredit.co.in]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50,001 - 60,000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[400000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Prod Workers]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Pooja]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Daughter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BagicTestForSelf -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.insurance.qa.test.BagicE2ETestCases@59f99ea]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-16T10:01:50Z" finished-at="2020-06-16T10:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.insurance.qa.test.BagicE2ETestCases -->
+    </test> <!-- BALIC Test Cases -->
+  </suite> <!-- Insurance BALIC test Automation -->
+</testng-results>
